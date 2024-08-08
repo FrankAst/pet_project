@@ -1,5 +1,17 @@
 # Loading datasets connections
 
 train:
- type: pandas.CSVDataset
- filepath: data/01_raw/train/train.csv
+  type: pandas.CSVDataset
+  filepath: data/01_raw/train/train.csv
+ 
+breed_labels:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/breed_labels.csv
+  
+color_labels:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/color_labels.csv
+  
+state_labels:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/state_labels.csv
